@@ -1,0 +1,198 @@
+/*
+dark primary colour-#E64A19
+primary colour-#FF5722
+accent colour-#795548
+text - #FFFFFF
+hover text- #212121
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.hero {
+    background-image: url(Images/Tannin_Smile_stretched.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-attachment: fixed;
+
+}
+
+.fingers {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    background-color: #E64A19;
+    box-shadow: 0px 10px 10px #aaaaaa;
+}
+.fingers img {
+    width: 20%;
+    margin-top: -45px;
+    display: block;
+}
+.right {
+    float: right;
+    padding: 0 50px 0 0;
+}
+.left {
+    float: left;
+    padding: 0 0 0 50px;
+} 
+
+section h1 {
+    background-color: #E64A19;
+    color: #FFFFFF;
+    padding: 40px 150px 4px 150px;
+    font-size: 96px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.header {
+    font-size: 84px;
+    padding: 10px;
+    display: inline-block;
+    margin: 15px 0 0 0;
+    color: #FFFFFF;
+    background: none;
+}
+.subheader {
+    font-size: 36px;
+    display: inline-block;
+    margin: 15px 0 40px 0;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.pageheader {
+    background-color: #E64A19;
+    color: #FFFFFF;
+    font-size: 96px;
+    font-weight: 400;
+    display: inline;
+    box-shadow: 0px 10px 15px #888888;
+
+}
+h2 {
+    background-color: #E64A19;
+    color: #FFFFFF;
+    padding: 0 150px 40px 150px;
+    font-size: 36px;
+    font-weight: 400;
+    box-shadow: 0px 10px 10px #aaaaaa;
+}
+
+h3 {
+    margin: 40px 0px 0 0;
+    font-size: 36px;
+}
+h4 {
+    margin: 5px 0 40px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+section p {
+    line-height: 150%;
+    margin: 20px 0;
+    text-align: justify;
+}
+h1,nav { 
+    text-transform: uppercase;
+}
+a {
+    color: #E64A19;
+    text-decoration: none;
+}
+section {  
+    width: 500px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+section ul {
+    margin-left: 50px;
+}
+body {
+     background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4, footer, nav ul {
+    text-align: center;
+}
+
+nav {
+    background-color: #FF5722;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li, nav a {
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+}
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 5px solid rgba(0,0,0,0);
+    float: left;
+}
+
+nav ul a {
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+}
+
+nav img {
+    height: 20px;
+    display: inline-block;
+    padding: 20px 30px 0px 295px;
+    float: left;
+}
+
+nav img:hover {
+    height: 25px;
+    padding: 18.5px 27.5px 0px 292.5px
+}
+
+nav li {
+    float: left;
+}
+
+nav a:hover{
+    color: #292929;
+}
+
+.active {
+   border-top: 5px solid #E64A19;
+}
+section img {
+    padding: 20px 0;
+}
+.smile {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.author {
+    display: block;
+    margin: 0 auto;
+}
+footer {
+    background-color: #E64A19;
+    color: #FFFFFF;
+    padding: 40px 150px;
+    margin-top: 40px;
+}
+iframe {
+    border: none;
+}
